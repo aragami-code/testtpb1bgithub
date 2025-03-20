@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+.contenu{
+    position: absolute;
+    background-color: white;
+    width: 480px;
+    height: 550px;
+    margin-left: 420px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.cnt1{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.cnt1 h1{
+    font-size: 38px;
+    color: #eb7371;
+}
+.cnt2{
+    margin-left: 145px;
+    margin-top: 125px;
+    position: absolute;
+}
+.cnt2 img{
+    border: 2px solid  black;
+    border-radius: 50px;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+}
+.cnt3{
+    position: absolute;
+    margin-left: 118px;
+    margin-top: 200px;
+}
+.cnt3 p{
+    font-size: 19px;
+}
+.cnt4{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 48px;
+}
+#id1, #id2{
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 15px;
+    margin: 10px;
+    width: 350px;
+    height: 22px;
+    outline: none;
+}
+.cnt5{
+    margin-top: 410px;
+    margin-left: 60px;
+    position: absolute;
+}
+.pg{
+    color: #eb7371;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 150px;
+}
+.Ibtn{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid #eb7371;
+    color: white;
+    background-color: #eb7371;
+    width: 160px;
+    padding: 15px;
+}
