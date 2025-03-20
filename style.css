@@ -1,0 +1,134 @@
+#header{
+    padding-top: 10px;
+    background-color: rgb(28, 28, 116);
+    color: beige;
+    height: 40px;
+    border: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 9vh
+}
+#header a{
+    color: rgb(117, 209, 235);
+    
+}
+#footer{
+    background-color: rgb(28, 28, 116);
+    color: beige;
+    height: 40px; 
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+.bubble{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Rend l'image circulaire */
+    object-fit: cover; /* Ajuste l'image sans distorsion */
+    border: 3px solid #0d427071; /* Optionnel : bordure stylée */
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #5a460e71;
+}
+img{
+    object-fit: cover; /* Ajuste l'image sans distorsion */
+    width: 200px;
+    height: 200px;
+    border: 3px solid #c4920971; /* Optionnel : bordure stylée */
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+#mid{
+    background-color: beige;
+    color: rgb(28, 28, 116);
+}
+
+#mad{
+    background-color:beige;
+    color: rgb(28, 28, 116);
+    border: 10px solid #ffffff71; /* Optionnel : bordure stylée */
+
+}
+form{
+    color: rgb(28, 28, 116);
+    background-color: beige;
+}
+body{
+    background-color: beige;
+    padding-left: 10px;
+}
+h3{
+    color: rgb(28, 28, 116);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: rgb(28, 28, 116);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#formulaireprincipal{
+    margin-bottom: 159px;
+}
+button {
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(247, 248, 249);
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(42, 42, 149);
+    
+} 
+
+/* Couleurs personnalisées */
+.btnprimary {
+    background-color: #10ea04; /* Vert */
+}
+
+.btnsecondary{
+    background-color: rgb(247, 14, 14);
+
+}
+  
+select{
+    color: black;
+}
+#l{
+    margin-bottom: 15px;
+}
+h1{
+    color: rgb(28, 28, 116);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+#form1{
+    margin-bottom: 200px;
+}
+
+#operation{
+    color: black;
+}
+
+#calculatrice {
+    max-width: 300px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+}   
+.form2{
+    margin-right: 200px;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.tab{
+    margin-left: 250px;
+    width: 250px;
+    height: 250px;
+    border: 3px solid #0d427071; /* Optionnel : bordure stylée */
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #5a460e71;margin-bottom: 250px;
+}
