@@ -1,0 +1,154 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0073e6;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #f5f5f5;
+    color: #0073e6;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #ddd;
+}
+
+/* Services Section */
+#services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.service-card {
+    width: 30%;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.service-card h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.service-card p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.service-card a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.service-card a:hover {
+    text-decoration: underline;
+}
+
+/* Portfolio Section */
+#portfolio {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.portfolio-item {
+    width: 30%;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.portfolio-item p {
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
