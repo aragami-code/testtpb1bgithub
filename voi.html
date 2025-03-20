@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie de Voitures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 Galerie de Voitures</h1>
+        <input type="text" id="search" placeholder="Rechercher une voiture..." onkeyup="searchCars()">
+        <div class="gallery" id="gallery"></div>
+    </div>
+
+    <script>
+        const gallery = document.getElementById("gallery");
+        const carImages = [];
+        
+        for (let i = 0; i < 100; i++) {
+            carImages.push(`https://source.unsplash.com/400x250/?car&sig=${i}`);
+        }
+        
+        carImages.forEach((src, index) => {
+            let carDiv = document.createElement("div");
+            carDiv.className = "car";
+            carDiv.innerHTML = `<img src="${src}" alt="Voiture ${index + 1}"><p>Voiture ${index + 1}</p>`;
+            gallery.appendChild(carDiv);
+        });
+        
+        function searchCars() {
+            let input = document.getElementById("search").value.toLowerCase();
+            let cars = document.querySelectorAll(".car");
+            cars.forEach((car, index) => {
+                car.style.display = `voiture ${index + 1}`.includes(input) ? "block" : "none";
+            });
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .car {
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .car img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        p {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+    </style>
+</body>
+</html>
