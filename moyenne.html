@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Calcul de Moyenne</title>
+</head>
+<body>
+    <h1>Calcul de la moyenne</h1><br>
+          <h4>Note de français</h4>
+    <input type="text" id="u1" placeholder="Entrez la note de français"><br>
+          <h4>Note d'anglais</h4>
+    <input type="text" id="u2" placeholder="Entrez la note d'anglais"><br>
+          <h4>Note de maths</h4>
+    <input type="text" id="u3" placeholder="Entrez la note de maths"><br>
+    <button onclick="moyenne()">Calculer</button>
+    <p>Résultat: <span id="result"></span></p>
+
+    <script>
+        function moyenne() {
+            console.log("La fonction moyenne() est appelée !");
+            var a = parseInt(document.getElementById("u1").value) || 0; 
+            var b = parseInt(document.getElementById("u2").value) || 0;
+            var c = parseInt(document.getElementById("u3").value) || 0;
+
+            var M = (a + b + c) / 3;
+            console.log("Valeurs :", a, b, c, "Moyenne :", M);
+            
+            document.getElementById("result").innerText = M;
+        }
+    </script>
+</body>
+</html>
+
