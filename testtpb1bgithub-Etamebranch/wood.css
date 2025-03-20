@@ -1,0 +1,271 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    scrollbar-width: none;
+}
+nav{
+    position: sticky;
+    padding-top: 20px;
+    width: 100vw;
+    height: 50px;
+    z-index: 1;
+}
+#nav2{
+    background-color: #FDA000;
+    z-index: 1;
+}
+#bak{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.4), rgba(128, 128, 128, 0.6)), url('hyundai-motor-group-V1DFo8C4JPA-unsplash.jpg');
+    background-size: cover;
+    background-position: bottom;
+    align-content: center;
+    text-align: center;
+}
+#et{
+    width: 100vw;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+#blocs{
+    display: flex;
+    margin: 0px 13vw;
+    margin-bottom: 50px;
+}
+#foot{
+    display: flex;
+    background-color: rgb(20, 20, 109);
+    width: 100vw;
+    padding: 50px 5vw;
+}
+#h1{
+    position: absolute;
+    left: 13vw;
+    font-size: 25px;
+    font-weight: bold;
+}
+#bold{
+    font-size: 13px;
+}
+#local{
+    padding-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+#lis{
+    position: absolute;
+    display: flex;
+    right: 20vw;
+}
+.local1{
+    display: flex;
+    right: 50px;
+    margin-right: 90px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.local2{
+    display: flex;
+    right: 100px;
+    margin-right: 60px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.local3{
+    display: flex;
+    right: 150px;
+    margin-right: 30px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+#list{
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    list-style: none;
+    margin-left: 15vw;
+}
+li{
+    background-color: transparent;
+}
+#linkt{
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.home{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+#tit{
+    background-color: transparent;
+    font-size: 5vw;
+    font-weight: bold;
+    z-index: 100;
+}
+#et2{
+    color: #FDA000;
+    text-align: center;
+    font-size: 2vw;
+}
+#et3{
+    text-align: center;
+    font-size: 3vw;
+}
+span{
+    font-weight: bold;
+}
+#bloc{
+    position: relative;
+    width: 20vw;
+    height: auto;
+    border: 0.1px solid rgba(128, 128, 128, 0.2);
+    padding: 25px 50px;
+}
+#tof{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    color: black;
+    padding-bottom: 30px;
+}
+#num{
+    position: absolute;
+    right: 50px;
+    color: grey;
+}
+#titr{
+    text-align: center;
+}
+#par{
+    color: grey;
+    text-align: left;
+}
+#colo{
+    margin-top: 30px;
+    position: absolute;
+    z-index: -5;
+    background-color: transparent;
+    height: 0;
+    width: 0;
+    border-left: 50px solid #FDA000;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+#res, #et6, #exe, #text, #reso, .local4, .local5, .local6, #bold2, #bold3, span{
+    background-color: transparent;
+}
+.local4{
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    right: 50px;
+    margin-right: 90px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.local5{
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    right: 100px;
+    padding-bottom: 30px;
+    margin-right: 60px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.local6{
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    right: 150px;
+    margin-right: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#foot-image{
+    width: 40vw;
+    height: 50vw;
+}
+#et4{
+    color: #FDA000;
+    font-size: 1.3vw;
+    background-color: transparent;
+    padding-bottom: 15px;
+}
+#et5{
+    color: whitesmoke;
+    font-size: 2vw;
+    background-color: transparent;
+}
+#reso{
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+#exe{
+    padding-left: 10vw;
+    width: 30vw;
+}
+#et6{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#bold3{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+#footer{
+    color: whitesmoke;
+    background-color: black;
+    border-top: 2px solid #FDA000;
+    display: flex;
+    height: 400px;
+    padding: 50px;
+}
+#engin{
+    width: 30vw;
+    margin-right: 5vw;
+}
+#comp{
+    display: inline-table;
+    margin-right: 5vw;
+}
+#serv{
+    display: inline-table;
+    margin-right: 5vw;
+}
+#cont{
+    display: inline-table;
+    margin-right: 5vw;
+}
+.par{
+    padding: 25px 0px;
+}
+.title{
+    color: rgba(245, 245, 245, 0.5);
+    border-bottom: 2px solid #FDA000;
+    margin-bottom: 25px;
+}
+#linkfoot{
+    color: rgba(245, 245, 245, 0.7);
+    text-decoration: none;
+}
+.fin{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
