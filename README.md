@@ -1,2 +1,13 @@
 # testtpb1bgithub
-test creation projet sur github 
+
+# MEMBRES DU GROUPE
+
+
+
+ANGOULA RAPHAEL
+SOP DUVAL
+EDDY ETAME
+NFORMI GRACE
+KALDJOB JB
+TSANANG AURELIE
+TONKWEU CARINE
