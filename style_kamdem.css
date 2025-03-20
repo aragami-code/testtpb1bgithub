@@ -1,0 +1,41 @@
+.container{
+    background-color: darkkhaki;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border-radius: 8px;
+    border: 2px darkseagreen solid;
+}
+.champ input{
+    margin: 4px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+#result{
+    margin-top: 15px;
+    text-align: center;
+}
+.button button{
+    margin: 2px;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 38px;
+}
+.button button:hover{
+    background-color: darkslategray;
+    color: white;
+    transition: 0.6s ease;
+    font-size: 20px;
+}
+.click button{
+    margin: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 2px deepskyblue solid;
+}
+.click button:hover{
+    background-color: darkslategray;
+    color: white;
+    transition: 0.6s ease;
+}
+
