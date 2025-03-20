@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Automobile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 Blog Automobile</h1>
+        <input type="text" id="search" placeholder="Rechercher un article..." onkeyup="searchArticles()">
+        <div class="articles" id="articles">
+            <div class="article">
+                <img src="https://source.unsplash.com/400x250/?car,luxury" alt="Les dernières tendances automobiles">
+                <h2>Les dernières tendances automobiles en 2025</h2>
+                <p>Découvrez les innovations et nouvelles technologies dans l'automobile en 2025.</p>
+                <a href="voi.html"><button>Lire plus</button></a>
+            </div>
+            <div class="article">
+                <img src="https://source.unsplash.com/400x250/?car,maintenance" alt="Comment bien entretenir sa voiture ?">
+                <h2>Comment bien entretenir sa voiture ?</h2>
+                <p>Astuces et conseils pour garder votre véhicule en parfait état.</p>
+                <a href="entre.html"> <button>Lire plus</button></a>
+            </div>
+            <div class="article">
+                <img src="https://source.unsplash.com/400x250/?car,suv" alt="Comparatif : SUV vs Berline">
+                <h2>Comparatif : SUV vs Berline, lequel choisir ?</h2>
+                <p>Avantages et inconvénients des SUV et berlines pour vous aider à choisir.</p>
+                <button>Lire plus</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function searchArticles() {
+            let input = document.getElementById("search").value.toLowerCase();
+            let articles = document.querySelectorAll(".article");
+            articles.forEach(article => {
+                let title = article.querySelector("h2").textContent.toLowerCase();
+                article.style.display = title.includes(input) ? "block" : "none";
+            });
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .articles {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .article {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            
+        }
+        .article img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .article h2 {
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</body>
+</html>

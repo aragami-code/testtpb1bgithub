@@ -1,0 +1,60 @@
+boby{
+    font-family: arial,sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+about{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 02px 4px rgba(0,0,0,0.1);
+}
+about h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+::content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+    content{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    content img{
+        max-width: 300px;
+        border-radius: 8px;
+    }
+    text p {
+        font-size: 1.1em;
+        line-height: 1.8;
+        color: #555;
+    }
+    @media(max-with:768px) {
+        content {
+            flex-direction: 
+            column;
+            text-align: center;}
+            content img {
+                max-width: 100%;
+                
+            }
+
+        
+    }
+
+        flex-direction: column;
+        text-align: center;
+    
+    ::content img {
+        max-width: 100%;
+    }
