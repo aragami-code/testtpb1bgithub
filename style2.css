@@ -1,0 +1,66 @@
+h1{
+    text-align: left;
+    color: black;
+}
+body{
+    margin-left: 20px;
+    
+}
+button{
+    color: whitesmoke;
+    background-color: rgb(212, 88, 6);
+    
+    padding-left: 20px;
+
+}
+footer{
+    height: 70px;
+}
+#col{
+    border: 15px;
+    border-color: orange;
+}
+#img1{
+    width: 40px;
+    height: 40px;
+}
+
+.header{
+    background-color: rgb(82, 102, 119);
+    border: 5px;
+}
+
+
+
+
+.texte {
+    position: absolute; /* Position absolue par rapport au conteneur */
+    top: 20px;          /* Positionnement en haut */
+    left: 20px;         /* Positionnement à gauche */
+    z-index: 1;         /* Niveau de superposition */
+    color: #333;
+    font-size: 18px;
+}
+
+.image1 {
+    margin-top: 50px;
+    position: relative; /* Position absolue par rapport au conteneur *          /* Positionnement vertical */
+        /* Positionnement horizontal */
+    width: 1400px;       /* Largeur de l'image */
+    height: 1000px;       /* Conserve le ratio de l'image */
+   
+}
+#img2{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#txt{
+    color: black;
+    margin-top: 100px;
+}
+h5{
+    margin-top: 200px;
+}
