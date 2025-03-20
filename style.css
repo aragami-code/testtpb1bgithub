@@ -1,0 +1,14 @@
+#header {
+    background-color: violet;
+    color: white;
+    height: 80px;
+    padding-top: 10px;
+}
+#header a {
+    color: white;
+}
+#footer {
+    background-color: violet;
+    height: 40px;
+    
+}
