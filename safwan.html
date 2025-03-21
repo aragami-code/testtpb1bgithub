@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage Horizon - Explorez le Monde</title>
+    <style>
+        /* Importation de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Réinitialisation et styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #007BFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Image de bannière */
+.banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Sections générales */
+.section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.section h1, .section h2 {
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+/* Boutons */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Cartes Destinations */
+.destination-card {
+    display: inline-block;
+    width: 280px;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.destination-card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Services */
+.service-item {
+}
+/* Réinitialisation des marges et styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Corps de page */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* En-tête (Header) */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #004080; /* Bleu professionnel */
+    padding: 15px 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+    height: 60px; /* Taille optimisée */
+    width: auto;
+    object-fit: contain; /* Maintient la qualité */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Couleur dorée */
+}
+
+/* Bannière */
+.banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Section générale */
+.section {
+    padding: 50px 10%;
+    text-align: left;
+}
+
+/* Titres */
+h1, h2 {
+    color: #004080;
+}
+
+/* Bouton principal */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #cc5500;
+}
+
+/* Carte de destinations */
+.destination-card {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Services */
+.service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.service-item img {
+    width: 80px;
+    margin-right: 15px;
+}
+
+/* Formulaire de contact */
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Pied de page */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+
+    <!-- En-tête avec logo et menu -->
+    <header>
+        <img src="images/logo.jpeg" alt="Voyage Horizon" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Image de bannière -->
+    <img src="images/banner.jpeg" alt="Découvrez le monde avec nous" class="banner">
+
+    <!-- Section de bienvenue -->
+    <section class="section">
+        <h1>Bienvenue chez Voyage Horizon</h1>
+        <p>Rêvez-vous d’évasion, d’aventure et de découvertes inoubliables ? <strong>Voyage Horizon</strong> est votre partenaire idéal pour explorer le monde dans les meilleures conditions. 
+        Nous vous proposons des séjours sur mesure, des circuits organisés et des expériences uniques adaptées à vos envies.</p>
+        <p>Que vous souhaitiez une escapade romantique à Paris, un safari inoubliable en Afrique ou une aventure exotique en Asie, nous avons la destination parfaite pour vous !</p>
+        <a href="destination.html" class="btn">Découvrez nos destinations</a>
+    </section>
+
+    <!-- Section Destinations populaires -->
+    <section class="section">
+        <h2>Nos destinations populaires</h2>
+        <div class="destination-card">
+            <img src="images/paris.jpeg" alt="Paris, France">
+            <h3>Paris, France</h3>
+            <p>Vivez la magie de la Ville Lumière, explorez la Tour Eiffel, le Louvre et les charmes des rues parisiennes.</p>
+        </div>
+        <div class="destination-card">
+            <img src="images/maldives.jpeg" alt="Maldives">
+            <h3>Maldives</h3>
+            <p>Plages paradisiaques, eaux cristallines et hôtels luxueux pour une escapade inoubliable.</p>
+        </div>
+        <div class="destination-card">
+            <img src="images/dubai.jpeg" alt="Dubaï">
+            <h3>Dubaï, Émirats Arabes Unis</h3>
+            <p>Découvrez le luxe ultime, les gratte-ciels impressionnants et des expériences inégalées.</p>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section class="section">
+        <h2>Pourquoi choisir Voyage Horizon ?</h2>
+        <div class="service-item">
+            <img src="images/service1.jpeg" alt="Service personnalisé">
+            <p><strong>Voyages personnalisés :</strong> Nous créons des itinéraires sur mesure adaptés à vos besoins.</p>
+        </div>
+        <div class="service-item">
+            <img src="images/service2.jpeg" alt="Meilleurs tarifs">
+            <p><strong>Tarifs compétitifs :</strong> Profitez des meilleures offres du marché sans compromis sur la qualité.</p>
+        </div>
+        <div class="service-item">
+            <img src="images/service3.jpeg" alt="Assistance 24/7">
+            <p><strong>Assistance 24/7 :</strong> Nous sommes disponibles à tout moment pour vous aider avant, pendant et après votre voyage.</p>
+        </div>
+        <a href="services.html" class="btn">En savoir plus</a>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section class="section">
+        <h2>Ce que disent nos clients</h2>
+        <blockquote>"Voyage Horizon a organisé un voyage de rêve pour notre lune de miel aux Maldives. Tout était parfait ! Merci encore pour cette expérience inoubliable."</blockquote>
+        <p>- Sophie & Julien</p>
+        
+        <blockquote>"Service impeccable, conseils avisés et une organisation parfaite. Je recommande à 100% !"</blockquote>
+        <p>- Karim D.</p>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="section">
+        <h2>Prêt à partir ?</h2>
+        <p>Contactez-nous dès aujourd’hui et laissez-nous vous aider à planifier votre prochain voyage.</p>
+        <a href="contact.html" class="btn">Contactez-nous</a>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2025 Voyage Horizon - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
